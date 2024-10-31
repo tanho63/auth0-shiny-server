@@ -38,7 +38,10 @@ router.get('/logout', function(req, res){
       + (env.LOGOUT_FEDERATED === 'true'? '&federated' : '');
   }
   
-  req.logout();
+  req.logout(function(err) {
+    if (err) { return next(err); }
+    res.redirect(logoutUrl);
+  });
   res.redirect(logoutUrl);
 });
 
