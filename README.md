@@ -4,7 +4,7 @@
 
 auth0 x express.js proxy middleware that helps achieve an auth0-walled shiny server open source instance. 
 
-originally found via [Charles Bordet](https://www.charlesbordet.com/en/guide-shiny-aws/#use-auth0-as-an-authentication-server) and those notes may also be helpful if stuck
+originally found via Charles Bordet, [notes](https://www.charlesbordet.com/en/guide-shiny-aws/#use-auth0-as-an-authentication-server) may also be helpful if stuck
 
 ## Running the proxy
 In order to run this proxy you need to have npm and nodejs installed.
